@@ -1,0 +1,17 @@
+# Información sobre el Sistema RAG de Antigravity
+
+El sistema RAG (Retrieval-Augmented Generation) es una técnica que permite a los modelos de lenguaje (LLMs) acceder a información externa para generar respuestas más precisas y actualizadas.
+
+## Componentes del Sistema
+1. **Document Loader**: Carga documentos como PDFs, TXT o Markdown.
+2. **Text Splitter**: Divide el texto en fragmentos manejables (chunks).
+3. **Embeddings**: Convierte el texto en vectores numéricos.
+4. **Vector Store**: Almacena los vectores para una búsqueda rápida.
+5. **Retriever**: Busca la información más relevante dada una consulta.
+6. **Generator**: El LLM que redacta la respuesta final basada en el contexto recuperado.
+
+## Herramientas Utilizadas
+- **LangChain**: Para orquestar todo el flujo.
+- **ChromaDB**: Como base de datos vectorial local.
+- **Sentence Transformers**: Para generar embeddings de alta calidad sin coste.
+- **Antigravity AI**: El asistente que ha diseñado e implementado este sistema siguiendo las instrucciones del usuario.

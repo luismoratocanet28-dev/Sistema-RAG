@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+.env
+
+# Project specific
+chroma_db/
+faiss_index/
+
+# OS
+.DS_Store
+Thumbs.db
